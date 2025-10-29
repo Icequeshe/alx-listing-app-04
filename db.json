@@ -1,0 +1,20 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Cozy Beachfront Cottage",
+      "description": "Enjoy ocean views and sunsets from this lovely cottage.",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "location": "Diani Beach, Kenya"
+    },
+    {
+      "id": 2,
+      "title": "Luxury City Apartment",
+      "description": "A modern apartment with all amenities in the city center.",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1595526114035-0e89f3b8503f",
+      "location": "Nairobi, Kenya"
+    }
+  ]
+}
