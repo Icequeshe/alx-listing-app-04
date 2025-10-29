@@ -3,20 +3,85 @@
     {
       "id": 1,
       "title": "Cozy Beachfront Cottage",
-      "description": "Enjoy ocean views and sunsets from this lovely cottage.",
+      "description": "Enjoy breathtaking ocean views from this charming beachfront cottage. Perfect for a relaxing getaway with family or friends.",
       "price": 120,
       "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
       "location": "Diani Beach, Kenya",
-      "amenities": ["Wi-Fi", "Air Conditioning", "Ocean View"]
+      "amenities": ["Wi-Fi", "Air Conditioning", "Ocean View", "Private Balcony"]
     },
     {
       "id": 2,
       "title": "Luxury City Apartment",
-      "description": "A modern apartment with all amenities in the city center.",
+      "description": "Modern and spacious apartment located in the heart of Nairobi with top-notch amenities and city skyline views.",
       "price": 200,
       "image": "https://images.unsplash.com/photo-1595526114035-0e89f3b8503f",
       "location": "Nairobi, Kenya",
-      "amenities": ["Pool", "Gym", "Wi-Fi"]
+      "amenities": ["Pool", "Gym", "Wi-Fi", "Parking"]
+    },
+    {
+      "id": 3,
+      "title": "Safari Lodge",
+      "description": "Immerse yourself in nature at this beautiful safari lodge near Maasai Mara. Includes guided tours and local cuisine.",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+      "location": "Maasai Mara, Kenya",
+      "amenities": ["All Meals", "Tour Guide", "Wi-Fi", "Fireplace"]
+    },
+    {
+      "id": 4,
+      "title": "Mountain Cabin Retreat",
+      "description": "A peaceful cabin in the mountains surrounded by scenic views. Ideal for couples or solo travelers seeking tranquility.",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353",
+      "location": "Mt. Kenya, Kenya",
+      "amenities": ["Fireplace", "Hot Shower", "Wi-Fi", "Mountain View"]
+    }
+  ],
+
+  "reviews": [
+    {
+      "id": 1,
+      "propertyId": 1,
+      "name": "Alice Wambui",
+      "rating": 5,
+      "comment": "The view was absolutely stunning and the cottage was clean and cozy. Would definitely visit again!"
+    },
+    {
+      "id": 2,
+      "propertyId": 1,
+      "name": "James Kariuki",
+      "rating": 4,
+      "comment": "Lovely stay, great location, but Wi-Fi was a bit slow at times."
+    },
+    {
+      "id": 3,
+      "propertyId": 2,
+      "name": "Sarah Mwangi",
+      "rating": 5,
+      "comment": "The apartment was luxurious and well-equipped. Everything was spotless."
+    },
+    {
+      "id": 4,
+      "propertyId": 3,
+      "name": "Peter Otieno",
+      "rating": 5,
+      "comment": "An unforgettable experience! The staff were kind and the safaris were well-organized."
+    }
+  ],
+
+  "bookings": [
+    {
+      "id": 1,
+      "firstName": "Charity",
+      "lastName": "Nduta",
+      "email": "charity@example.com",
+      "phoneNumber": "+254700123456",
+      "cardNumber": "4242424242424242",
+      "expirationDate": "12/26",
+      "cvv": "123",
+      "billingAddress": "Nairobi, Kenya",
+      "propertyId": 2,
+      "bookingDate": "2025-10-20T12:00:00Z"
     }
   ]
 }
